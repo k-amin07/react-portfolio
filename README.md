@@ -1,0 +1,1 @@
+Frontend for the portfolio. Massive shoutout to [Pedro Machado](https://github.com/machadop1407) for his [tutorial](https://www.youtube.com/watch?v=x7mwVn2z3Sk). 
