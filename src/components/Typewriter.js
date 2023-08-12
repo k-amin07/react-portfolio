@@ -15,7 +15,7 @@ const Typewriter = ({ text, delay }) => {
         }
     }, [currentIndex, delay, text]);
 
-    return <a style={{fontSize:14}}>{currentText}</a>;
+    return <p style={{fontSize:14}}>{currentText}</p>;
 };
 
 export default Typewriter;

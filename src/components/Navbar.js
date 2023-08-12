@@ -23,7 +23,7 @@ function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/experience">Experience</Link>
-            <a href='https://drive.google.com/file/d/1jYIkj4xz3PWRaWBZT2bY1Gim_uKvdIys/view?usp=sharing' target="_blank">Resume</a>
+            <a href='https://drive.google.com/file/d/1jYIkj4xz3PWRaWBZT2bY1Gim_uKvdIys/view?usp=sharing' target="_blank" rel='noreferrer'>Resume</a>
         </div>
     </div>
   )
