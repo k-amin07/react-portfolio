@@ -9,9 +9,9 @@ function Home() {
   return (
     <div className='home'>
         <div className='about'>
-            <h2>Hi, Welcome to my Portfolio</h2>
+            <h2>Hi Visitor!<br/>Welcome to my Portfolio</h2>
             <div className='prompt'>
-                <p>I am a Software Engineer with a passion for problem solving and continuous learning</p>
+                <p>I am a Software Engineer with a passion for problem solving and continuous learning. Contact me at:</p>
                 <div>
                 <a href='https://www.linkedin.com/in/k-amin07'><LinkedInIcon/></a>
                 <a href='mailto:khizaramin95@gmail.com'><EmailIcon/></a>
@@ -23,22 +23,22 @@ function Home() {
         <div className='skills'>
             <h1>Skills</h1>
             <ol className='list'>
-                <li className='item'>
+                <li className='item' style={{ textAlign: 'center' }}>
                     <h2>Backend</h2>
                     <span>
-                          NodeJS, GraphQl, Neo4j, PostgreSQL, Docker, ApolloServer, AWS, ElasticBeanstalk, EC2, S3, Lambda, CloudFormation, CodePipeline, SQS, ElastiCache, Firebase
+                          NodeJS • GraphQl • Neo4j • PostgreSQL • Docker • ApolloServer • AWS • ElasticBeanstalk <br/>EC2 • S3 • Lambda • CloudFormation • CodePipeline • SQS • ElastiCache • Firebase
                     </span>
                 </li>
-                <li className='item'>
-                    <h2>Other</h2>
+                <li className='item' style={{ textAlign: 'center' }}>
+                    <h2>Misc</h2>
                     <span>
-                        Git, Linux, Bash, CI/CD, Data Structures, Algorithms, Selenium, Stem, Machine Learning, Deep Learning
+                        Git • Linux • Bash • CI/CD • Data Structures • Algorithms • Selenium • Stem <br/>Machine Learning • Deep Learning
                     </span>
                 </li>
-                <li className='item'>
+                <li className='item' style={{ textAlign: 'center' }}>
                     <h2>Languages</h2>
                     <span>
-                        Javascript, Python, Rust
+                        Python • Javascript • Rust
                     </span>
                 </li>
             </ol>
