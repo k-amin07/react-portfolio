@@ -19,13 +19,13 @@
 
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 4pc;
     color: #e9d35b;
     height: 150px;
 }
 
 .about .prompt {
-    width: 40%;
+    width: 70%;
     font-size: 30px;
 }
 
@@ -57,7 +57,7 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .about h2 {
         font-size: 40px;
     }
