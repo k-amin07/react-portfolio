@@ -10,5 +10,6 @@ export const ProjectList = [
     {
         name: "Placeholder",
         image: Blx,
+        
     }
 ]
