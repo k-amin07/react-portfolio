@@ -11,7 +11,7 @@ function Home() {
         <div className='about'>
             <h2>Hi Visitor!<br/>Welcome to my Portfolio</h2>
             <div className='prompt'>
-                <p>I am a Software Engineer with a passion for problem solving and continuous learning. Contact me at:</p>
+                <p>I am a Software Engineer with a passion for problem solving and continuous learning. Contact me @</p>
                 <div>
                 <a href='https://www.linkedin.com/in/k-amin07'><LinkedInIcon/></a>
                 <a href='mailto:khizaramin95@gmail.com'><EmailIcon/></a>
