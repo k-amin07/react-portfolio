@@ -8,7 +8,6 @@ import '../styles/ProjectDisplay.css'
 function ProjectDisplay() {
     const {id} = useParams();
     const project = ProjectList[id];
-    console.log(project)
     return (
         <div className='project'>
             <h1>{project.name}</h1>

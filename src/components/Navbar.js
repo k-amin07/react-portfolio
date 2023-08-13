@@ -20,9 +20,9 @@ function Navbar() {
             </button>
         </div>
         <div className='links'>
-            <Link to="/portfolio">Home</Link>
-            <Link to="/portfolio/projects">Projects</Link>
-            <Link to="/portfolio/experience">Experience</Link>
+            <Link to="/portfolio/">Home</Link>
+            <Link to="/portfolio/projects/">Projects</Link>
+            <Link to="/portfolio/experience/">Experience</Link>
             <a href='https://drive.google.com/file/d/1jYIkj4xz3PWRaWBZT2bY1Gim_uKvdIys/view?usp=sharing' target="_blank" rel='noreferrer'>Resume</a>
         </div>
     </div>
