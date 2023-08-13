@@ -14,12 +14,11 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Navigate to="/portfolio" replace/>}/>
-          <Route path="/react-portfolio" element={<Navigate to="/portfolio" replace />} />
-          <Route path="/portfolio" element={<Home/>} />
-          <Route path="/portfolio/projects" element={<Projects/>} />
-          <Route path="/portfolio/project/:id" element={<ProjectDisplay/>} />
-          <Route path="/portfolio/experience" element={<Experience />} />
+          <Route path="/" element={<Navigate to="/portfolio/" replace/>}/>
+          <Route path="/portfolio/" element={<Home/>} />
+          <Route path="/portfolio/projects/" element={<Projects/>} />
+          <Route path="/portfolio/project/:id/" element={<ProjectDisplay/>} />
+          <Route path="/portfolio/experience/" element={<Experience />} />
         </Routes>
         <Footer/>
       </Router>
