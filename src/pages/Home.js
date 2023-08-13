@@ -9,13 +9,13 @@ function Home() {
   return (
     <div className='home'>
         <div className='about'>
-            <h2>Hi Visitor!<br/>Welcome to my Portfolio</h2>
+            <h2>Hi, There!<br/>Welcome to my Portfolio</h2>
             <div className='prompt'>
-                <p>I am a Software Engineer with a passion for problem solving and continuous learning. Contact me @</p>
+                <p>As a Software Engineer I thrive on solving intricate challenges while embracing perpetual learning. Lets connect @</p>
                 <div>
-                <a href='https://www.linkedin.com/in/k-amin07'><LinkedInIcon/></a>
-                <a href='mailto:khizaramin95@gmail.com'><EmailIcon/></a>
-                <a href='https://www.github.com/k-amin07'><GitHubIcon/></a>
+                    <a href='https://www.linkedin.com/in/k-amin07' target="_blank" rel='noreferrer'><LinkedInIcon/></a>
+                    <a href='mailto:khizaramin95@gmail.com' target="_blank" rel='noreferrer'><EmailIcon/></a>
+                    <a href='https://www.github.com/k-amin07' target="_blank" rel='noreferrer'><GitHubIcon/></a>
                 </div>
                 <Typewriter text="Warning: Risk of getting stuck in an infinite loop! The navbar on the top points to my Resume which points back to this website. Proceed with caution!" delay={10} />
             </div>

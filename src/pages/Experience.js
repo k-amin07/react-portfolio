@@ -17,9 +17,11 @@ function Experience() {
                 iconStyle={{ background: '#3e497a', color: '#fff' }}
                 icon={item.icon}
               >
+                <a style={{textDecoration:"none", color:"black"}} href={item.url} target="_blank" rel='noreferrer'>
                 <h3 className={item.className}>{item.title}</h3>
                 <h4 className={item.className}>{item.subtitle}</h4>
                 <p>{item.description}</p>
+                </a>
               </VerticalTimelineElement>
               
             })}

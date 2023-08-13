@@ -14,7 +14,7 @@ function ProjectDisplay() {
             <h1>{project.name}</h1>
             <img src={project.image} alt={project.name} />
             <p><b>Skills:</b> {project.skills}</p>
-            <GitHubIcon />
+            <a href={project.git} target="_blank" rel='noreferrer'><GitHubIcon /></a>
         </div>
     )
 }
