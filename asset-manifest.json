@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1251cfb6.css",
-    "main.js": "/react-portfolio/static/js/main.deda7585.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/bridgelinx.jpg": "/react-portfolio/static/media/bridgelinx.a38c07c4a31b16817858.jpg",
-    "static/media/medium-inverted.svg": "/react-portfolio/static/media/medium-inverted.6e3cfa37e6f5d72b5983abf406a78ab0.svg",
-    "index.html": "/react-portfolio/index.html",
-    "main.1251cfb6.css.map": "/react-portfolio/static/css/main.1251cfb6.css.map",
-    "main.deda7585.js.map": "/react-portfolio/static/js/main.deda7585.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.1251cfb6.css",
+    "main.js": "/static/js/main.800a14c2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/bridgelinx.jpg": "/static/media/bridgelinx.a38c07c4a31b16817858.jpg",
+    "static/media/medium-inverted.svg": "/static/media/medium-inverted.6e3cfa37e6f5d72b5983abf406a78ab0.svg",
+    "index.html": "/index.html",
+    "main.1251cfb6.css.map": "/static/css/main.1251cfb6.css.map",
+    "main.800a14c2.js.map": "/static/js/main.800a14c2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1251cfb6.css",
-    "static/js/main.deda7585.js"
+    "static/js/main.800a14c2.js"
   ]
 }
