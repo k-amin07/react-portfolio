@@ -15,6 +15,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Navigate to="/portfolio" replace/>}/>
+          <Route path="/react-portfolio" element={<Navigate to="/portfolio" replace />} />
           <Route path="/portfolio" element={<Home/>} />
           <Route path="/portfolio/projects" element={<Projects/>} />
           <Route path="/portfolio/project/:id" element={<ProjectDisplay/>} />
